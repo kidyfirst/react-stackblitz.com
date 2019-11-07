@@ -5,7 +5,7 @@ import { render } from "react-dom";
 // import "./Component/ViewScroll/style.css"
 // Traditional CSS
 import ViewScrollOld from "./Component/ViewScrollOld";
-import "./Component/ViewScrollOld/style"
+import "./Component/ViewScrollOld/style.css"
 import "normalize.css";
 import "./style.css";
 
