@@ -4,8 +4,8 @@ import { render } from "react-dom";
 import ViewScroll from "./Component/ViewScroll";
 import "./Component/ViewScroll/style.css"
 // Traditional CSS
-import ViewScrollOld from "./Component/ViewScrollOld";
-import "./Component/ViewScrollOld/style"
+// import ViewScrollOld from "./Component/ViewScrollOld";
+// import "./Component/ViewScrollOld/style"
 import "normalize.css";
 import "./style.css";
 
@@ -21,7 +21,6 @@ class App extends Component {
     return (
       <div>
         <ViewScroll />
-        <ViewScrollOld />
       </div>
     );
   }
