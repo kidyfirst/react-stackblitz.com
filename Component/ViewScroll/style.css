@@ -1,0 +1,42 @@
+.view-scroll {
+    perspective: 1px; 
+    padding: 0; 
+    height: calc(100vh - 200px); 
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+.box {
+    height: 1280px;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.music-background {
+    position: absolute; left: 50%;
+    transform: translate3D(-50%, -50px, -1px) scale(2);
+}
+.music-lyrics{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(mobile_1_layer2.png) no-repeat;
+    transform: translate(-50%,-50%);
+    color: #FFFFFF
+}
+.music-lyrics-one { 
+    width: 160px;
+    height: 200px;
+    margin: -535px 0 0 -250px;
+}
+
+.music-lyrics-two { 
+    width: 160px;
+    height: 229px;
+    background-position: 0 -56px;
+    margin: -200px 0 0 200px;
+}
+.music-lyrics-three { 
+    width: 160px;
+    height: 114px;
+    background-position: 100px -297px;
+    margin: 200px 0 0 -200px;
+}
